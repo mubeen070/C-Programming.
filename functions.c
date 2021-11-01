@@ -18,3 +18,4 @@ int main()
     printf("The square of %d is : %.1f", num, n);
     return 0;
 }
+
