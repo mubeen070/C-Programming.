@@ -1,12 +1,16 @@
 #include <stdio.h>
-
 #define SIZE 5
 int main(void){
-    int num[SIZE]={};
-    int n;
-    for (size_t i = 1; i < SIZE; ++i)
+    int num[SIZE];
+    printf("Enter 5 integers: \n");
+    for (int i = 0; i < SIZE; ++i)
     {
-        n = num[i];
+        scanf("%d", &num[i]);
     }
-    printf("%d", n);
+    for (int i = 0; i < SIZE; i++)
+    {
+        printf("%d ", num[i]);
+    }
+    
+    
 }
