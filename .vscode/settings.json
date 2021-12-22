@@ -1,3 +1,7 @@
 {
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "assignQ2.C": "cpp",
+        "assignQ3.C": "cpp"
+    }
 }

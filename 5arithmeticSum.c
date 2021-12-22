@@ -9,8 +9,8 @@ int main()
 
     for (int i; i <= n; i++)
     {
-        ssum += (i * i);
-        csum += (i * i * i);
+        ssum +=  (i * i);
+        csum +=  (i * i * i);
     }
     printf("\nThe sum of squares from %d to %d number is : %d \n",i, n, ssum);
 

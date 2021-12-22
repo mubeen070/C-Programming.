@@ -53,7 +53,6 @@ int main() {
     }
 
     printUnion(arr1, arr2, len1, len2);
-    printIntersection(arr1, arr2, len1, len2);
 
     return 0;
 }
